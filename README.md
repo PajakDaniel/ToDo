@@ -1,2 +1,2 @@
 # ToDo
- Lista rzeczy do zrobienia
+ Lista rzeczy do zrobienia by Daniel Pająk
