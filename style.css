@@ -27,18 +27,55 @@ nav{
     flex-basis: 65%;
 }
 
-header > nav > ul{
+.navBar{
     list-style-type: none;
     padding-right: 10px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
-header > nav > ul > li{
+.navBar > li{
     padding-left: 20px;
 }
 a{
     color: #000000;
+}
+/* main */
+main{
+    height: 85%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.slogan{
+    color: white;
+    padding: 50px 10px 5px 10px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slogan > h2
+{
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.buttons{
+    padding: 10px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons > a{
+    margin: 6px;
+    padding: 6px 10px;
+    border: 1px solid #9DDA39;
+    border-radius: 15px;
+    background-color: #9DDA39;
+    font-size: 10px;
 }
 
 
