@@ -36,7 +36,13 @@ nav{
 }
 .navBar > li{
     padding-left: 20px;
+    transition: transform 0.5s;
+    
 }
+.navBar > li:hover{
+    transform: scale(1.07);
+}
+
 a{
     color: #000000;
 }
@@ -76,6 +82,10 @@ main{
     border-radius: 15px;
     background-color: #9DDA39;
     font-size: 10px;
+    transition: transform 1s;
+}
+.buttons > a:hover{
+    transform: scale(1.15);
 }
 
 

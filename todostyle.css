@@ -1,0 +1,63 @@
+#taskadd {
+    color: white;
+    padding: 3px 6px;
+    border: 1px solid  #9DDA39;
+    border-radius: 10px;
+    background-color:  #404040;
+    transition: 0.4s;
+}
+#taskadd:focus{
+    background-color: #333333;
+}
+#tasksubmit{
+    color: white;
+    padding: 3px 6px;
+    border: 1px solid  #9DDA39;
+    border-radius: 10px;
+    background-color:  #404040;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.task{
+    display: flex;
+    padding: 3px 6px;
+}
+.tasklist > h2{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+.text{
+    color: white;
+    padding: 3px 6px;
+    border: 1px solid  #9DDA39;
+    border-radius: 10px;
+    background-color:  #404040;
+    transition: 0.4s;
+}
+.text:focus{
+    background-color: #333333;
+}
+
+.edit{
+    color: white;
+    padding: 3px 6px;
+    border: 1px solid  #9DDA39;
+    border-radius: 10px;
+    background-color:  #404040;
+}
+.delete{
+    color: white;
+    padding: 3px 6px;
+    margin-left: 4px;
+    border: 1px solid  #9DDA39;
+    border-radius: 10px;
+    background-color:  #404040;
+}

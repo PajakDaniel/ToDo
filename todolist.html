@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="todostyle.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">ToDoList</h1>
+        <nav>
+            <ul class="navBar">
+                <li><a href="#">O projekcie</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Zakładka</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="taskmenu">
+            <form id="taskform">
+                <input type="text" id="taskadd" placeholder="Co masz w planach?">
+                <input type="submit" id="tasksubmit" value="Dodaj">
+            </form>
+        </section>
+        <section class="tasklist">
+            <h2>Zadania: </h2>
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="Jakies zadanie" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="delete">Usuń</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
