@@ -15,6 +15,10 @@
     border: 1px solid  #9DDA39;
     border-radius: 10px;
     background-color:  #404040;
+    transition: 0.5s;
+}
+#tasksubmit:hover{
+    opacity: 80%;
 }
 
 #tasks{
@@ -46,13 +50,6 @@
     background-color: #333333;
 }
 
-.edit{
-    color: white;
-    padding: 3px 6px;
-    border: 1px solid  #9DDA39;
-    border-radius: 10px;
-    background-color:  #404040;
-}
 .delete{
     color: white;
     padding: 3px 6px;
@@ -60,4 +57,9 @@
     border: 1px solid  #9DDA39;
     border-radius: 10px;
     background-color:  #404040;
+    transition: 0.5s;
+}
+
+.delete:hover{
+    opacity: 80%;
 }
