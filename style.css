@@ -11,7 +11,7 @@ body{
 }
 header{
     width: 100%;
-    height: 10%;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +20,8 @@ header{
 }
 
 header > h1{
-    padding-left: 10px;
+    padding-left: 25px;
+    font-size: 70px;
 }
 
 nav{
@@ -29,13 +30,13 @@ nav{
 
 .navBar{
     list-style-type: none;
-    padding-right: 10px;
+    padding-right: 25px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 .navBar > li{
-    padding-left: 20px;
+    padding-left: 25px;
     transition: transform 0.5s;
     
 }
@@ -45,11 +46,12 @@ nav{
 
 a{
     color: #000000;
+    font-size: 30px;
 }
 /* main */
 main{
     height: 85%;
-    padding: 15px;
+    padding: 37px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -57,7 +59,7 @@ main{
 }
 .slogan{
     color: white;
-    padding: 50px 10px 5px 10px;
+    padding: 125px 25px 12px 25px;
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
@@ -66,22 +68,25 @@ main{
 .slogan > h2
 {
     letter-spacing: 1px;
-    font-size: 40px;
+    font-size: 100px;
+}
+.slogan > p{
+    font-size: 60px;
 }
 .buttons{
-    padding: 10px;
+    padding: 25px;
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .buttons > a{
-    margin: 6px;
-    padding: 6px 10px;
-    border: 1px solid #9DDA39;
-    border-radius: 15px;
+    margin: 15px;
+    padding: 15px 25px;
+    border: 3px solid #9DDA39;
+    border-radius: 37px;
     background-color: #9DDA39;
-    font-size: 10px;
+    font-size: 25px;
     transition: transform 1s;
 }
 .buttons > a:hover{
