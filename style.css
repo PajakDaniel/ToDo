@@ -17,6 +17,8 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #9DDA39;
+    position: sticky;
+    top: 0;
 }
 
 header > a > h1{
@@ -123,6 +125,38 @@ main > article > ol, main > article > p{
 .linia{
     min-height: 100%;
     border-right: 3px solid #9DDA39;
+}
+/* form */
+
+.kont{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 1px;
+}
+.cont{
+    width: 400px;
+    padding: 30px;
+    background-color: #333333;
+    margin: 0 auto;
+    border: 3px solid #9DDA39;
+}
+.cont input[type=text],.cont input[type=email]{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 3px solid #9DDA39;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 3px solid #9DDA39;
+}
+.cont input[type=submit]{
+    border: 3px solid #9DDA39;
+    width: 100%;
+    padding: 2px;
+    font-size: 15px;
 }
 
 
